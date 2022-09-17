@@ -51,7 +51,7 @@ if page == 'QAP Triangle Plot':
 
          
         #col1, col2 = st.columns(2)
-        st.col1.plotly_chart(fig24)
+        st.plotly_chart(fig24)
 
 
 
