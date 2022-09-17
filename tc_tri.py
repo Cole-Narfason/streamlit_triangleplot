@@ -354,5 +354,5 @@ if qtz <= 5:
 col1.success("The rock can be classified as: {}".format(result))
 
 #result = ' '
-except NameError as e:
-    print('please input data')
+	except NameError as e:
+	    print('please input data')
