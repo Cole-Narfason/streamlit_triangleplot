@@ -52,9 +52,9 @@ col1.plotly_chart(fig24)
 
 
 
-image = Image.open("qap_triangle.jpg")
+#image = Image.open("qap_triangle.jpg")
 
-col2.image(image, caption='Plutonic Rock Triangle source: https://i.pinimg.com/736x/4f/91/9c/4f919ccb976cd8edcd643da3cfbf76b3--igneous-rock-geology.jpg')
+#col2.image(image, caption='Plutonic Rock Triangle source: https://i.pinimg.com/736x/4f/91/9c/4f919ccb976cd8edcd643da3cfbf76b3--igneous-rock-geology.jpg')
 
 #col2.plotly_chart(fig25)
 
