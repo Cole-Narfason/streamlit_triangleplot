@@ -23,7 +23,9 @@ if data_file is not None:
     st.write(file_details)
     df1 = pd.read_csv(data_file)
     st.dataframe(df1)
-
+except NameError as e:
+	    print('please input data')
+		
 st.header('Plot Triangle Diagram')
 
 q = st.selectbox(
@@ -354,5 +356,3 @@ if qtz <= 5:
 col1.success("The rock can be classified as: {}".format(result))
 
 #result = ' '
-	except NameError as e:
-	    print('please input data')
