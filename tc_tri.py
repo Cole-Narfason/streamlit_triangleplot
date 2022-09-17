@@ -23,8 +23,6 @@ if data_file is not None:
     st.write(file_details)
     df1 = pd.read_csv(data_file)
     st.dataframe(df1)
-except NameError as e:
-	    print('please input data')
 		
 st.header('Plot Triangle Diagram')
 
