@@ -9,9 +9,8 @@ import plotly.io as pio
 
 st.set_page_config(layout="wide")
 
-page = st.sidebar.selectbox('Select Page',
-  ['QAP Triangle Plot'])
-if page == 'QAP Triangle Plot':
+page = 'yes'
+if page == 'yes':
 
     try:
         # Title
